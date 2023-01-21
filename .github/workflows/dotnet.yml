@@ -24,7 +24,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Install NuGet Packages
-      run: nuget restore Creeper-CS.sln
+      run: nuget restore Creeper.sln
 
     - name: Build solution
       run: msbuild -nologo -v:m -p:Configuration=${{ matrix.configuration }} Client\Client.csproj
