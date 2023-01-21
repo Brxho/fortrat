@@ -44,7 +44,7 @@ jobs:
       uses: dev-drprasad/delete-tag-and-release@v0.2.0
       with:
         delete_release: true
-        tag_name: AutoBuild-Controler
+        tag_name: AutoBuild
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
@@ -54,8 +54,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: AutoBuild-Controler
-        release_name: AutoBuild-Controler
+        tag_name: AutoBuild
+        release_name: AutoBuild
         body: ${{ steps.changelog.outputs.changelog }}
         draft: false
         prerelease: true
