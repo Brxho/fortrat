@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{4DCE3248-0BAE-48E4-B165-A8A910BC7A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creeper", "Creeper\Creeper.csproj", "{4E6526EE-E709-4C45-ADBF-7838E8D71A9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4DCE3248-0BAE-48E4-B165-A8A910BC7A96} = {4DCE3248-0BAE-48E4-B165-A8A910BC7A96}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DCE3248-0BAE-48E4-B165-A8A910BC7A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCE3248-0BAE-48E4-B165-A8A910BC7A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCE3248-0BAE-48E4-B165-A8A910BC7A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCE3248-0BAE-48E4-B165-A8A910BC7A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6526EE-E709-4C45-ADBF-7838E8D71A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6526EE-E709-4C45-ADBF-7838E8D71A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6526EE-E709-4C45-ADBF-7838E8D71A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6526EE-E709-4C45-ADBF-7838E8D71A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A34E992A-DF08-4FEE-9B7C-A5A0DCE14569}
+	EndGlobalSection
+EndGlobal
